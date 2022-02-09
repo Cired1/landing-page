@@ -4,7 +4,7 @@ import ProjectCard from "../ProjectCard/ProjectCard"
 
 const Portfolio = () => {
     return (
-        <section className={styles.container} id="portfolio">
+        <section className={styles.container}>
             <div className={styles.content}>
                 <h2 className={styles.title}>PORTFOLIO</h2>
                 <div className={styles.grid}>

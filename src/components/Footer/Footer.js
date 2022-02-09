@@ -1,5 +1,5 @@
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa"
-import logo from "../../assets/logo.png"
+import { CompanyCard } from ".."
 import styles from "./Footer.module.css"
 
 const Footer = () => {
@@ -7,12 +7,7 @@ const Footer = () => {
         <footer className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.top}>
-                    <article className={styles.company}>
-                        <img src={logo} alt="logo" className={styles.logoImage} />
-                        <h2>Example Net</h2>
-                        <p>EXAMPLE NET is a team of experienced mobile and web developers.</p>
-                    </article>
-
+                    <CompanyCard />
                     <section className={styles.companyInfo}>
                         <div className={styles.companyInfoItem}>
                             <h3 className={styles.companyInfoTitle}>Links</h3>

@@ -27,15 +27,6 @@
   margin-bottom: 3rem;
 }
 
-.grid img {
-  width: 200px;
-  opacity: 0.5;
-}
-
-.grid img:hover {
-  opacity: 1;
-}
-
 @media screen and (min-width: 600px) {
   .grid {
     flex-direction: row;

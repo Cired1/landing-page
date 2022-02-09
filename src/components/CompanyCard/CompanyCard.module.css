@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #ddd;
+  border-radius: 15px;
+  border-bottom: 5px solid green;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 25%;
+  }
+}

@@ -1,8 +1,9 @@
-import styles from "./Message.module.css"
+import { Link } from "react-router-dom"
+import styles from "./Contact.module.css"
 
-const Message = () => {
+const Contact = () => {
     return (
-        <section className={styles.container} id="contact">
+        <section className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.info}>
                     <h2 className={styles.title}>
@@ -12,12 +13,12 @@ const Message = () => {
                         Get in touch and let us build something amazing together!
                     </h3>
                 </div>
-                <a href="#contact" className={styles.link}>
+                <Link to="/contact" className={styles.link}>
                     Contact Us
-                </a>
+                </Link>
             </div>
         </section>
     )
 }
 
-export default Message
+export default Contact

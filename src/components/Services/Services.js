@@ -4,7 +4,7 @@ import ServiceCard from "../ServiceCard/ServiceCard"
 
 const Services = () => {
     return (
-        <section className={styles.container} id="services">
+        <section className={styles.container}>
             <div className={styles.content}>
                 <h2 className={styles.title}>Services</h2>
                 <h3 className={styles.subtitle}>We are deeply committed to the growth and success of our clients.</h3>

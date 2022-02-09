@@ -13,20 +13,6 @@
   width: 90%;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.logoImage {
-  width: 50px;
-}
-
-.logoTitle {
-  color: #222;
-}
-
 .btnMenu {
   padding: 0.5rem;
   background-color: transparent;
