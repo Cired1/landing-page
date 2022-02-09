@@ -1,0 +1,47 @@
+.container {
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 95%;
+}
+
+.title {
+  color: green;
+  border-bottom: 4px solid green;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.grid img {
+  width: 200px;
+  opacity: 0.5;
+}
+
+.grid img:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
+

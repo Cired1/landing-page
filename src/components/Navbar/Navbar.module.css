@@ -1,0 +1,74 @@
+.container {
+  width: 100%;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logoImage {
+  width: 50px;
+}
+
+.logoTitle {
+  color: #222;
+}
+
+.btnMenu {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btnMenu svg {
+  font-size: 1.2rem;
+}
+
+.list {
+  display: none;
+  gap: 2rem;
+}
+
+.link {
+  color: #222;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: blueviolet;
+}
+
+.btnContact {
+  padding: 0.75rem 1rem;
+  color: #fff;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 15px;
+}
+
+.btnContact:hover {
+  opacity: 0.9;
+}
+
+@media screen and (min-width: 900px) {
+  .list {
+    display: flex;
+  }
+  .btnMenu {
+    display: none;
+  }
+}
