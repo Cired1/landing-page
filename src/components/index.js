@@ -13,6 +13,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 import ScrollToTop from "./ScrollToTop/ScrollToTop"
 import ServiceCard from "./ServiceCard/ServiceCard";
 import Services from "./Services/Services";
+import Sidebar from "./Sidebar/Sidebar"
 
 export {
     About,
@@ -28,5 +29,6 @@ export {
     ProjectCard,
     ScrollToTop,
     ServiceCard,
-    Services
+    Services,
+    Sidebar
 }

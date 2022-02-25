@@ -3,13 +3,16 @@ import styles from "./Navbar.module.css"
 import { FaBars } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import Logo from "../Logo/Logo"
+import { useSidebarContext } from "../../context/sidebarContext";
 
 const Navbar = () => {
+    const { openSidebar } = useSidebarContext();
+
     return (
         <nav className={styles.container}>
             <div className={styles.content}>
                 <Logo />
-                <button className={styles.btnMenu}>
+                <button className={styles.btnMenu} onClick={openSidebar}>
                     <FaBars />
                 </button>
                 <ul className={styles.list}>

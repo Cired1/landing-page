@@ -1,11 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import { Navbar, Footer, ScrollToTop } from "./components";
+import { Navbar, Footer, ScrollToTop, Sidebar } from "./components";
 import { AboutPage, ContactPage, HomePage, Layout, NotFoundPage, PortfolioPage, ServicesPage } from "./routes";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Sidebar />
       <ScrollToTop>
         <Routes>
           <Route path="/" element={<Layout />}>
