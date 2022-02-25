@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import styles from "./ServicesPage.module.css";
-import Construction from "../../components/Construction/Construction";
+import { Services } from "../../components"
 
 const ServicesPage = () => {
 
@@ -11,7 +11,9 @@ const ServicesPage = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <Construction />
+                <h2 className={styles.title}>More about our services</h2>
+                <h3 className={styles.subtitle}>Digital Products</h3>
+                <Services />
             </div>
         </section>
     )

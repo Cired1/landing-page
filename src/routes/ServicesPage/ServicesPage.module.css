@@ -4,7 +4,20 @@
 
 .content {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  padding: 1rem;
+  padding-bottom: 5rem;
   max-width: 1200px;
   width: 95%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 3rem;
 }
