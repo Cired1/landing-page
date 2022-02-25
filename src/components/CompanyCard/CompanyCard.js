@@ -5,7 +5,7 @@ const CompanyCard = () => {
     return (
         <article className={styles.container}>
             <Logo />
-            <p>EXAMPLE NET is a team of experienced mobile and web developers.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </article>
     )
 }
